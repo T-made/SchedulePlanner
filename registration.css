@@ -1,0 +1,85 @@
+/* This is the CSS for the student registeration page */
+
+
+
+body{
+	font-family: Arial, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url("https://www.i-studentglobal.com/usa/mo/ucmo/mini-guide/chinese/html5/assets/images/mobile/ucmo-students-on-campus.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.register{
+	background: rgb(64,64,65);
+	width: 320px;
+	height: 750px;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 55px;
+	color: #fff;
+	padding: 70px 30px; 
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.register p {
+	margin-left: 0px;
+	padding: 0;
+	font-weight: bold;
+}
+
+.register input {
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.register input[type="text"], input[type="password"]
+{
+	
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	width: 300px;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.register input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: rgb(207,32,46);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.register input[type="submit"]:hover{
+	cursor: pointer;
+	background: red;
+	color: #fff;
+}
+
+.register a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.register a:hover {
+	color: #D1202F;
+
+
+}
