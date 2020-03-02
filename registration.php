@@ -50,7 +50,7 @@ if(empty($_POST["num"]) && empty($_POST["password"])){
 
 <body>
 
-
+<!-- Form -->
 		<form class="register" method="POST">
 		<h1> Registeration </h1>
 		<p style="color: darkgrey; font-size: 15px">
