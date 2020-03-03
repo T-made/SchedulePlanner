@@ -5,6 +5,4 @@ if($con ==false)
 {
 	echo "connection is not done!!";
 }
-
-
 ?>

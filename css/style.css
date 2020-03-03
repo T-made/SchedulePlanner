@@ -1,0 +1,17 @@
+.admintitle{
+   background-color: #530602;
+   color:#fff;
+   margin-left: 40px;
+   margin-right: 40px;
+   height: 140px;
+   line-height: 140px;
+}
+body{
+	font-family: Arial, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url("https://www.i-studentglobal.com/usa/mo/ucmo/mini-guide/chinese/html5/assets/images/mobile/ucmo-students-on-campus.jpg");
+	background-size: cover;
+	background-position: center;
+  background-attachment: fixed;
+}

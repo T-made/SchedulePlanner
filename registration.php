@@ -17,13 +17,18 @@ if(empty($_POST["num"]) && empty($_POST["password"])){
 		   $lName =$_POST["lName"];
 		   $email =$_POST["email"];
 		   //Security reason encrypt password
-		   //$password = md5($password);
+		   
 		  $query = "INSERT INTO `student`(`student_id`, `f_name`, `l_name`, `password`, `email`) VALUES ('$username','$fName', '$lName','$password','$email')";
 
 		  $run = mysqli_query($con,$query);
 		  if($run){
-			  echo'Successful';
-			  header('location:Login.php');
+				?>
+				<script>
+			  alert("Registration is Succesfull");
+
+				</script>
+				<?php
+			  header('location:index.php');
 
 
 		  }else{
@@ -43,7 +48,7 @@ if(empty($_POST["num"]) && empty($_POST["password"])){
 
 <html>
 <head>
-	<link href="registration.css" rel="stylesheet" type="text/css">
+	<link href="css/registration.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 		<title> Registeration </title>
 		</head>
@@ -69,6 +74,7 @@ if(empty($_POST["num"]) && empty($_POST["password"])){
 			<p> Email </p>
 			<input type="email" name="email" placeholder="Enter an email">
 			<input type="submit" name="register" value="Register Now">
+
 		</form>
 </body>
 

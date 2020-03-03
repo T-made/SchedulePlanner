@@ -19,7 +19,7 @@ body{
 	margin: auto;
 	margin-top: 55px;
 	color: #fff;
-	padding: 70px 30px; 
+	padding: 70px 30px;
 }
 
 h1 {
@@ -43,7 +43,19 @@ h1 {
 
 .register input[type="text"], input[type="password"]
 {
-	
+
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	width: 300px;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.register input[type="email"]
+{
+
 	border: none;
 	border-bottom: 1px solid #fff;
 	background: transparent;
