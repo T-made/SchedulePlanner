@@ -11,7 +11,7 @@ if(isset($_SESSION['uid'])){
 <html>
 <head>
 
-	<link href="../css/Login.css" rel="stylesheet" type="text/css"
+	<link href="../css/Login.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 	<title> Login Form </title>
 
@@ -27,9 +27,7 @@ if(isset($_SESSION['uid'])){
 			<p> Password </p>
 			<input type="password" name="pass" placeholder="Enter Password">
 			<input type="submit" name="login" value="Login">
-			<a href="#"> Forgot password? </a><br>
-			<a href="../registration.php"> Don't have an account? Sign up </a><br>
-			<a href="../index.php"> Are you a Student?</a>
+			<a href="../login.php"> Are you a Student?</a>
 
 		</form>
 	</div>
@@ -41,7 +39,7 @@ if(isset($_SESSION['uid'])){
 <!-- now we need to add php code -->
 <?php
 //add database connection first
-include('dbcon.php');
+include('../dbcon.php');
 //when submit button click then process otherwise not
 //so use if (isset) method
 if(isset($_POST['login'])){
