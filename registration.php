@@ -12,7 +12,7 @@ if(empty($_POST["num"]) && empty($_POST["password"])){
 }
 	else{
 		   $username =$_POST["num"];
-		   $password =$_POST["password"];
+		   $password=$POST["password"];
 		   $fName =$_POST["fName"];
 		   $lName =$_POST["lName"];
 		   $email =$_POST["email"];
@@ -28,7 +28,7 @@ if(empty($_POST["num"]) && empty($_POST["password"])){
 
 				</script>
 				<?php
-			  header('location:index.php');
+			  header('location:login.php');
 
 
 		  }else{
@@ -70,9 +70,10 @@ if(empty($_POST["num"]) && empty($_POST["password"])){
 			<input type="text" name="lName" placeholder="Last name">
 			<p> Password </p>
 			<input type="password" name="password" placeholder="Enter a password">
-
 			<p> Email </p>
 			<input type="email" name="email" placeholder="Enter an email">
+			<p> Major </p>
+			<input type="text" name="major_name" placeholder="Enter your Major">
 			<input type="submit" name="register" value="Register Now">
 
 		</form>
